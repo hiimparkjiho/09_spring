@@ -9,9 +9,9 @@ public class Bread extends Product{
         super();
     }
 
-    public Bread(String name, int price, Date breakDate) {
+    public Bread(String name, int price, Date bakedDate) {
         super(name, price);
-        this.bakedDate = breakDate;
+        this.bakedDate = bakedDate;
     }
 
     public Bread(String name, int price) {
@@ -22,8 +22,8 @@ public class Bread extends Product{
         return bakedDate;
     }
 
-    public void setBreakDate(Date breakDate) {
-        this.bakedDate = breakDate;
+    public void setBreakDate(Date bakedDate) {
+        this.bakedDate = bakedDate;
     }
 
     @Override
